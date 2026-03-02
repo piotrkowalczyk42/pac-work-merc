@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/phongwarp_sheen"
+	"$translucent" 1
+}

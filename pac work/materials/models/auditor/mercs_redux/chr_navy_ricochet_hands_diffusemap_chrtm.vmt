@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/chr_navy_ricochet_hands_diffusemap_chrtm"
+	"$translucent" 1
+}

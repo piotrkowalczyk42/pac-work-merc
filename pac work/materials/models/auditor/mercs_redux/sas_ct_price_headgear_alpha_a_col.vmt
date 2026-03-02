@@ -1,0 +1,40 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/Upper/sas_ct_price_headgear_alpha_a_col"
+	"$bumpmap" "models/auditor/mercs_redux/Upper/sas_ct_price_headgear_alpha_a_col_nml"
+
+
+
+
+	$nocull 1		//renders the material on the backfaces, i prefer to not use it too much. Basically allows to avoid seeing through parts of the model that are on the inside
+
+	$normalmapalphaenvmapmask 1 // uses normal alpha mask for rendering reflections on material parts.
+	
+	"$envmap" "models/auditor/mercs_redux/Shared/painted_silver"					
+	"$envmaptint" "[0.04 0.04 0.04]"				
+ 	"$envmapFresnel"  "[1.4] "
+	$translucent 1
+	$ambientocclusion 0
+
+
+	"$phong" "1"	//directional reflections					
+	"$phongboost"	"2" 		//defines how strong $phong reflection is
+	//"$phongexponent" "4"	// in case you don't want to use exponenttexture use that one, mind that it's not a good solution for everything, but if you like it, that's cool too.
+	"$phongexponenttexture" "models/auditor/mercs_redux/Shared/green"  		//this is useful, make use of it if you have a chance.
+	"$phongwarptexture"		"models/auditor/mercs_redux/Shared/phongwarp_sheen"		//very useful, works with directional lights and map lighting, useful for everything.
+	$lightwarptexture "models/auditor/mercs_redux/Shared/lightwarp_elchulus"	//quite cool too, doesn't work under directional light, works on map lighting, useful for playermodels. Defines material shading tint.
+
+	"$phongfresnelranges"	"[0.76 0.921 1.25]"			//play with that one too, it's useful.
+	"$phongtint" 			"[0.77 0.8 1]"			//you can leave that one as is pretty much all of the time, defines phong reflection tint.
+	"$PhongAlbedoTint" "1"
+
+
+
+	//"$detail" "models\auditor/r6s/smoke/detail_leather2"		//Uses detail texture for adding detail to material in case it's not very detailed, no affected by bump.	 Don't use it too much, try applying detailbump instead.
+	$detailscale 18
+	$detailblendfactor 1
+	$detailblendmode 0
+
+
+
+}

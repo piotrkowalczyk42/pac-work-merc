@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/wpn_atach"
+	"$translucent" 1
+}

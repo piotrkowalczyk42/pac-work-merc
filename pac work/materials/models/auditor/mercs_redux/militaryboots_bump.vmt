@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/militaryboots_bump"
+	"$translucent" 1
+}

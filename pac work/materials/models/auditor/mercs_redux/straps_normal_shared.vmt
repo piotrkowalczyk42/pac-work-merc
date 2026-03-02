@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/straps_normal_shared"
+	"$translucent" 1
+}

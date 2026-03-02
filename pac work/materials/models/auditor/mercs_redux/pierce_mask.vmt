@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/auditor/mercs_redux/Upper/aiden_mask_d"
+	"$bumpmap" "models/auditor/mercs_redux/Upper/aiden_mask_n"
+}
